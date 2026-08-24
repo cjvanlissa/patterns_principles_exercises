@@ -1,0 +1,12 @@
+Nr,IF,THEN
+P1,external_event,intrinsic_motivation
+P2,external_event,locus_of_causality
+P3,external_event,needs
+P4,integration,healthy_development
+P5,integration,wellbeing
+P6,intrinsic_motivation,healthy_development
+P7,intrinsic_motivation,wellbeing
+P8,locus_of_causality,intrinsic_motivation
+P9,needs,integration
+P10,needs,intrinsic_motivation
+P11,needs,wellbeing
