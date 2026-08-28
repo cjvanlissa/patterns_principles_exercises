@@ -3,7 +3,7 @@
 # Zhao K, Zhao Y, Xu W. Relationship between middle school students' academic stress and physical exercise behavior from the perspective of Self-Determination Theory: The chained mediation of motivation and intention. PLoS One. 2025 Jan 3;20(1):e0316599. doi: 10.1371/journal.pone.0316599. PMID: 39752352; PMCID: PMC11698333.
 library(tidySEM)
 library(readxl)
-df <- readxl::read_xlsx("/home/cjvanlissa/Downloads/pone.0316599.s002.xlsx", 1)
+df <- readxl::read_xlsx("pone.0316599.s002.xlsx", 1)
 df <- df[!is.na(df[[1]]), -1]
 
 # Alternatively, a dataset can be loaded from an SPSS (.sav) file.
