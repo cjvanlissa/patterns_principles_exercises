@@ -28,10 +28,10 @@ table_desc <- tidySEM::descriptives(df)
 table_desc
 
 # Notice that all variables have initially been imported as numeric variables.
-# This includes 'gender' and 'field'. Although these variables are represented
-# by numbers in the raw dataset, the numbers are actually category codes rather
-# than meaningful numerical quantities. These variables should therefore be
-# represented as categorical variables rather than numeric variables.
+# For example, 'gender' is represented by numbers in the raw dataset, but the
+# numbers are actually category codes rather than meaningful numerical
+# quantities. These variables should therefore be represented as categorical
+# variables rather than numeric variables.
 #
 # The analyses planned later in this workflow accept variables represented as
 # either of the following R data types:
@@ -46,8 +46,8 @@ table_desc
 # variable, or remove it from the analysis dataset if it is not needed.
 #
 # Recode variables that represent categories as factors.
-# Here we recode 'gender' and 'field' from their original numeric codes into
-# factor variables. We also attach meaningful text labels to the numeric
+# Here we recode 'gender' from its original numeric codes into
+# a factor variable. We also attach meaningful text labels to the numeric
 # categories so that subsequent tables and output are easier to understand.
 # The 'levels' argument specifies the original codes found in the dataset,
 # while 'labels' specifies the corresponding category names that R should
