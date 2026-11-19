@@ -4575,7 +4575,7 @@
     },
     "mgcv": {
       "Package": "mgcv",
-      "Version": "1.9-4",
+      "Version": "1.9-5",
       "Source": "Repository",
       "Authors@R": "person(given = \"Simon\", family = \"Wood\", role = c(\"aut\", \"cre\"), email = \"simon.wood@r-project.org\")",
       "Title": "Mixed GAM Computation Vehicle with Automatic Smoothness Estimation",
@@ -4970,9 +4970,9 @@
     },
     "nlme": {
       "Package": "nlme",
-      "Version": "3.1-171",
+      "Version": "3.1-172",
       "Source": "Repository",
-      "Date": "2026-09-01",
+      "Date": "2026-10-31",
       "Priority": "recommended",
       "Title": "Linear and Nonlinear Mixed Effects Models",
       "Authors@R": "c(person(\"José\", \"Pinheiro\", role = \"aut\", comment = \"S version\"), person(\"Douglas\", \"Bates\", role = \"aut\", comment = \"up to 2007\"), person(\"Saikat\", \"DebRoy\", role = \"ctb\", comment = \"up to 2002\"), person(\"Deepayan\", \"Sarkar\", role = \"ctb\", comment = \"up to 2005\"), person(\"EISPACK authors\", role = \"ctb\", comment = \"src/rs.f\"), person(\"Siem\", \"Heisterkamp\", role = \"ctb\", comment = \"Author fixed sigma\"), person(\"Bert\", \"Van Willigen\",role = \"ctb\", comment = \"Programmer fixed sigma\"), person(\"Johannes\", \"Ranke\", role = \"ctb\", comment = \"varConstProp()\"), person(\"R Core Team\", email = \"R-core@R-project.org\", role = c(\"aut\", \"cre\"), comment = c(ROR = \"02zz1nj61\")))",
@@ -7396,6 +7396,41 @@
       "NeedsCompilation": "no",
       "Author": "Yihui Xie [aut, cre, cph] (ORCID: <https://orcid.org/0000-0003-0645-5666>), Posit Software, PBC [cph, fnd], Christophe Dervieux [ctb] (ORCID: <https://orcid.org/0000-0003-4474-2498>), Devon Ryan [ctb] (ORCID: <https://orcid.org/0000-0002-8549-0971>), Ethan Heinzen [ctb], Fernando Cagua [ctb]",
       "Maintainer": "Yihui Xie <xie@yihui.name>",
+      "Repository": "CRAN"
+    },
+    "tpc": {
+      "Package": "tpc",
+      "Version": "1.0",
+      "Source": "Repository",
+      "Type": "Package",
+      "Title": "Tiered PC Algorithm",
+      "Authors@R": "c( person(given = \"Janine\", family = \"Witte\",  email = \"witte@leibniz-bips.de\", role = c(\"aut\")), person(given = \"Ronja\", family = \"Foraita\",  email = \"foraita@leibniz-bips.de\", role = c(\"cre\",\"ctb\"), comment = c(ORCID = \"0000-0003-2216-6653\")), person(\"DFG\", role = \"fnd\"))",
+      "Maintainer": "Ronja Foraita <foraita@leibniz-bips.de>",
+      "Description": "Constraint-based causal discovery using the PC algorithm while accounting for a partial node ordering, for example a partial temporal ordering when the data were collected in different waves of a cohort study. Andrews RM, Foraita R, Didelez V, Witte J (2021) <arXiv:2108.13395>   provide a guide how to use tpc to analyse cohort data.",
+      "Depends": [
+        "pcalg",
+        "R (>= 3.5.0)"
+      ],
+      "Imports": [
+        "graph",
+        "graphics",
+        "methods",
+        "parallel",
+        "utils"
+      ],
+      "Suggests": [
+        "Rgraphviz",
+        "testthat (>= 3.0.0)"
+      ],
+      "Encoding": "UTF-8",
+      "LazyData": "true",
+      "RoxygenNote": "7.2.3",
+      "License": "GPL (>= 3)",
+      "URL": "https://github.com/bips-hb/tpc",
+      "BugReports": "https://github.com/bips-hb/tpc/issues",
+      "Config/testthat/edition": "3",
+      "NeedsCompilation": "no",
+      "Author": "Janine Witte [aut], Ronja Foraita [cre, ctb] (<https://orcid.org/0000-0003-2216-6653>), DFG [fnd]",
       "Repository": "CRAN"
     },
     "tuneRanger": {
