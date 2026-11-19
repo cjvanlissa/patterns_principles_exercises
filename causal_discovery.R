@@ -1,7 +1,6 @@
 # Causal discovery tutorial
-
-# Setup
-#| message: false
+# install.packages("tpc")
+# renv::snapshot()
 library(tidySEM)
 library(ppcor)
 library(qgraph)
