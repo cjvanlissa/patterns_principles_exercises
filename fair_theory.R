@@ -30,8 +30,9 @@ needs -> wellbeing
 }'
 
 # Create the local project folder that will become the theory archive.
+path.expand("~") # relative path to which you will have to enter the desired path
 project_path <- file.path("~/theories", "sdt")
-dir.create(project_path)
+dir.create(project_path, recursive = TRUE)
 
 # Save the theory as a shareable, machine-readable text file.
 writeLines(theory, file.path(project_path, "theory.txt"))
